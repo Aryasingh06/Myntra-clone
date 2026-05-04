@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Myntra Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="navbar">
+        <h1>Myntra</h1>
+        <input type="text" id="search" placeholder="Search products...">
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h2>Big Sale 50% OFF</h2>
+    </div>
+
+    <!-- Filter -->
+    <div class="filter">
+        <select id="priceFilter">
+            <option value="all">All</option>
+            <option value="500">Below ₹500</option>
+            <option value="1000">Below ₹1000</option>
+        </select>
+    </div>
+
+    <!-- Products -->
+    <h2 class="section-title">Products</h2>
+    <main class="products" id="product-container"></main>
+
+    <!-- Cart -->
+    <h2 class="section-title">Cart</h2>
+    <div id="cart-container"></div>
+    <h3 id="total-price">Total: ₹0</h3>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
